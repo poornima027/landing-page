@@ -17,9 +17,9 @@
  * Define Global Variables
  * 
 */
-//Global variable is defined
+//Defined global variable
 const navbar = document.querySelector('#navbar__list');
-//section variable is defined
+//Defined section variable
 const sections = document.querySelectorAll('section')
 
 /**
@@ -28,11 +28,11 @@ const sections = document.querySelectorAll('section')
  * 
 */
 
-// checking for an active element
+// If any active element is present
 function getActiveElem() {
     maxSection = sections[0];
     minVal = 1000000;
-    //looping all over the sections
+    //Applying loop on all sections
     for (item of sections) {
         let bounding = item.getBoundingClientRect();
         if (bounding.top > -300 & bounding.top < minVal) {
@@ -65,11 +65,11 @@ function setActive () {
     window.addEventListener('scroll', function (event) {
         let section = getActiveElem();
         section.classList.add('your-active-class');
-        // inactive sections are made
+        // Inactive sections 
         for (let item of sections) {
             if (item.id != section.id & item.classList.contains('your-active-class')) {
                 item.classList.remove('your-active-class');
-                section.style.cssText = "background-color:skyblue;";
+                section.style.cssText = "background-color:blue;";
             }
         }
         // set corresponding header style

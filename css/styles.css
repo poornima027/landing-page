@@ -82,7 +82,7 @@ section {
 }
 
 .navbar__menu .active__link {
-    background: skyblue;
+    background: grey;
     color: #fff;
     transition: ease 0.3s all;
 }

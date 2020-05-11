@@ -1,15 +1,18 @@
-# The General Text
-Landing page of our awesome Project
+# Project Description
+Landing page with beautiful background and amazing Navigational menu.
 
-# Languages Used
-Html
-Css
-Javascript
+# Purpose of the Project
+Making the concepts of ES6 clear.
 
-# The major ingredients of project
+# Important Sections to notice in the project
 The Navigation bar
-Smooth Scroll in navigation
 Dynamic activity
+Smooth Scroll in navigation
 
-# Motive behind the project
-We get to learn the javascript functions and their implementation. 
+# Techonlogies Used
+HTML
+CSS
+Javascipt
+
+# Source
+The Project was possible because of the wonderful guidance of the Udacity instructors. 
